@@ -1,6 +1,7 @@
 package ru.stqa.geometry.figures;
 
-public class Rectangle {
+public record Rectangle (double a, double b ) {
+    
 
     public static void printRectangleArea(double a, double b) {
         System.out.println(String.format(
