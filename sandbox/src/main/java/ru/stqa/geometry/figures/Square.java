@@ -3,7 +3,7 @@ package ru.stqa.geometry.figures;
 public record Square (double side) {
 
     public Square {
-        if (side == 0) {
+        if (side <= 0) {
             throw new IllegalArgumentException("Side should be not a negative");
         }
     }
