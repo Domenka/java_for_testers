@@ -41,7 +41,6 @@ public class Test1Test {
     driver.findElement(By.name("pass")).click();
     driver.findElement(By.name("pass")).sendKeys("secret");
     driver.findElement(By.xpath("//input[@value=\'Login\']")).click();
-    driver.findElement(By.id("nav")).click();
     driver.findElement(By.linkText("groups")).click();
     driver.findElement(By.name("new")).click();
     driver.findElement(By.name("group_name")).click();
