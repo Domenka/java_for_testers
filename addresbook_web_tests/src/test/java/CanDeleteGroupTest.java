@@ -4,11 +4,10 @@ public class CanDeleteGroupTest extends TestBase {
 
     @Test
     public void canDeleteGroup() {
-        openGroupsPage();
-        if (!isGroupPresent()) {
-            createGroup();
+        if (!app.groups().isGroupPresent()) {
+            app.groups().createGroup();
         }
-        deleteGroup();
+        app.groups().deleteGroup();
 
     }
 }
