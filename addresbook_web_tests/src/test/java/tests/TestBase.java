@@ -22,17 +22,4 @@ public class TestBase {
 
 
 
-
-    /* @BeforeEach
-    public void setUp() {
-        if (tests.canCreateGroup.driver == null) {
-            tests.canCreateGroup.driver = new FirefoxDriver();
-            Runtime.getRuntime().addShutdownHook(new Thread(tests.canCreateGroup.driver::quit));
-            tests.canCreateGroup.driver.get("http://localhost/addressbook/index.php");
-            tests.canCreateGroup.driver.findElement(By.name("user")).sendKeys("admin");
-            tests.canCreateGroup.driver.findElement(By.name("pass")).click();
-            tests.canCreateGroup.driver.findElement(By.name("pass")).sendKeys("secret");
-            tests.canCreateGroup.driver.findElement(By.xpath("//input[@value=\'Login\']")).click();
-        }
-    } */
 }
